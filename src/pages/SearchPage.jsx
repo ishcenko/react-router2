@@ -48,6 +48,7 @@ const SearchPage = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
+
     const searchValue = event.target.children.search.value;
 
     setSearchParams({
