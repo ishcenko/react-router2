@@ -7,9 +7,93 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blanchedalmond;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.c-error {
+  background-color: red;
+  color: black;
+  font-style: italic;
+  padding: 20px 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: 26px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title-app {
+  color: blue;
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+}
+
+.post {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.post-id {
+  width: 70px;
+  padding: 20px;
+}
+
+.post-title {
+  padding-left: 15px;
+  width: 370px;
+  padding-right: 20px;
+}
+
+.post-body {
+  padding-left: 15px;
+  width: 700px;
+}
+
+.modal-close {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  color: #000;
+  top: 20px;
+  right: 20px;
+  background: rgba(126, 126, 99, 0.362);
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.post-details {
+  display: block;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-style: italic;
+}
+
+.post_details-title {
+  color: blue;
+  display: block;
+  font-size: 32px;
+  text-align: center;
+}
+.post_details-id {
+  display: block;
+  color: red;
+  font-size: 24px;
+  text-align: left;
+}
+.post_details-body {
+  display: block;
 }
